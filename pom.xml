@@ -35,10 +35,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>org.springframework.cloud</groupId> -->
-		<!-- <artifactId>spring-cloud-starter-config</artifactId> -->
-		<!-- </dependency> -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
 		<!-- <dependency> -->
 		<!-- <groupId>org.springframework.cloud</groupId> -->
 		<!-- <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId> -->
@@ -133,17 +133,17 @@
 						<exclude>com/co/pragma/**/domain/model/gateways/*</exclude>
 						<!-- Exception Domain -->
 						<exclude>com/co/pragma/**/domain/exceptions/*</exclude>
-						<!-- Driver Adapters MySQL Infraestructure-->
+						<!-- Driver Adapters MySQL Infraestructure -->
 						<exclude>com/co/pragma/**/infraestructure/driveradapters/mongo/*</exclude>
-						<!-- Driver Adapters Mappers Infraestructure-->
+						<!-- Driver Adapters Mappers Infraestructure -->
 						<exclude>com/co/pragma/**/infraestructure/driveradapters/mappers/*</exclude>
-						<!-- Driver Adapters Api Infraestructure-->
+						<!-- Driver Adapters Api Infraestructure -->
 						<exclude>com/co/pragma/**/infraestructure/driveradapters/api/*</exclude>
-						<!-- Exceptions Infraestructure-->
+						<!-- Exceptions Infraestructure -->
 						<exclude>com/co/pragma/**/infraestructure/exceptions/*</exclude>
-						<!-- Utils Infraestructure-->
+						<!-- Utils Infraestructure -->
 						<exclude>com/co/pragma/**/infraestructure/utils/*</exclude>
-						<!-- Models Infraestructure-->
+						<!-- Models Infraestructure -->
 						<exclude>com/co/pragma/**/infraestructure/entrypoints/api/models/*</exclude>
 					</excludes>
 				</configuration>
